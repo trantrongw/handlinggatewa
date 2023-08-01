@@ -2,7 +2,8 @@
 // 1. User PB Person Model GW.
 // 2. Set create in dataset after publish
 // 3. Test connect bắt buộc phải sử dụng function trong custom conector (handlinggatewa.Contents) để vertify.
-// 4. Không sửa dụng table trong parameter của funtion nếu muốn đưa lên GW. -> fix
+// 4. Không sửa dụng table trong parameter của funtion nếu muốn đưa lên GW. 
+// 5. Nếu tham số truyền vào TestConnection không tôn tại (null) thì sẽ lỗi trên GW
 [Version = "1.0.0"]
 section handlinggatewa;
 
